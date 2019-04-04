@@ -19,7 +19,8 @@ body {
 .coloredcontainer {
   width: 960px;
   height: 602px;
-  background: grey;
+  background: blue;
+  transition: 5s;
   border: 1px solid black;
   margin: 20px auto;
 }
@@ -28,34 +29,7 @@ h1 {
   margin: -350px 0 300px 280px;
   font-family: cursive;
   font-size: 55px;
-}
-
-.blue {
-  background: blue;
-  width: 150px;
-  height: 150px;
-  margin: 0 0 0 80px;
-}
-
-.yellow {
-  background: yellow;
-  width: 150px;
-  height: 150px;
-  margin: 0 0 0 380px;
-}
-
-.black {
-  background: black;
-  width: 150px;
-  height: 150px;
-  margin: 0 0 0 780px;
-}
-
-.brown {
-  background: brown;
-  width: 150px;
-  height: 150px;
-  margin: 0 0 0 50px;
+  animation: show 5s forwards;
 }
 
 .box1 {
@@ -63,6 +37,8 @@ h1 {
   width: 150px;
   height: 150px;
   margin: 0 0 0 780px;
+  animation: show 5s forwards;
+  cursor: pointer;
 }
 
 .box2 {
@@ -70,6 +46,8 @@ h1 {
   width: 150px;
   height: 150px;
   margin: 0 0 0 80px;
+  animation: show 7s forwards;
+  cursor: pointer;
 }
 
 .box3 {
@@ -77,6 +55,8 @@ h1 {
   width: 150px;
   height: 150px;
   margin: 0 0 0 580px;
+  animation: show 12s forwards;
+  cursor: pointer;
 }
 
 .box4 {
@@ -84,4 +64,56 @@ h1 {
   width: 150px;
   height: 150px;
   margin: 0 0 0 380px;
+  animation: show 10s forwards;
+  cursor: pointer;
 }
+
+@keyframes show {
+  from {
+    opacity: 0;    
+  }
+  to {
+    opacity: 1;    
+  }
+}
+
+
+.blue {
+  background: blue;
+  width: 350px;
+  height: 150px;
+  padding: 190px 0 0 80px;
+  border-radius: 15px;
+  transition: 5s;
+}
+
+.yellow {
+  background: yellow;
+  width: 450px;
+  height: 150px;
+  margin: 0 0 35px 250px;
+  border-radius: 15px;
+  transition: 5s;
+}
+
+.black {
+  background: black;
+  width: 150px;
+  height: 150px;
+  margin: 0 0 0 780px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  transition: 5s;
+}
+
+.brown {
+  background: brown;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 50px;
+  border-radius: 50px;
+  transition: 5s;
+}
+
