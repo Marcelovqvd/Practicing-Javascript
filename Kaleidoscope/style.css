@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-bo;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+body::before, body::after {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: repeating-linear-gradient(to right, #fff , #000  80px, #fff 80px, #000fff 160px);
+}
+body::after {
+  background-image: repeating-linear-gradient(to bottom, #fff, #000  80px, #fff 80px, #000ffd 160px);
+  mix-blend-mode: difference;
+}
+
+
+.change {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.change::before, .change::after {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: repeating-linear-gradient(to right, #000 , #fff  80px, #000 80px, #008000 160px);
+}
+.change::after {
+  background-image: repeating-linear-gradient(to bottom, #000, #fff  80px, #000 80px, #008000 160px);
+  mix-blend-mode: difference;
+}
