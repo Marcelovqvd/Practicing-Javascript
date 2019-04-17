@@ -53,26 +53,19 @@
 }
 
 .formulario-modal .button {
-  background: #988c77;
-  color: #000;
+  background: green;
+  color: #fff;
   padding: 10px;
-  border: 1px solid #000;
   margin: 5px 0 0 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-}
-
-.formulario-modal .button:hover {
-  font-size: 25px;
-  color: #fff;
-  border: 1px solid #988c77;
   cursor: pointer;
 }
 
 .formulario-modal .input {
   width: 70%;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #000;
   display: block;
   margin: 20px;
