@@ -53,6 +53,7 @@
 }
 
 .formulario-modal .button {
+  width: 76%;
   background: green;
   color: #fff;
   padding: 10px;

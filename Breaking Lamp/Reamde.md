@@ -1,0 +1,1 @@
+<h1>Practcing event in Javascript</h1>
