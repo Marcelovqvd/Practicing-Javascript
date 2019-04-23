@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.header {\r\n  background: yellow;\r\n  ul {\r\n    list-style: none;\r\n    li {\r\n      margin: 10px;\r\n      padding: 20px;\r\n      a {\r\n        color: black;\r\n        text-decoration: none;\r\n      }\r\n    }\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;;AAED,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,MAAM;CAYnB;;;AAbD,AAEE,OAFK,CAEL,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CASjB;;;AAZH,AAII,OAJG,CAEL,EAAE,CAEA,EAAE,CAAC;EACD,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CAKd;;;AAXL,AAOM,OAPC,CAEL,EAAE,CAEA,EAAE,CAGA,CAAC,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CACtB"
+}
