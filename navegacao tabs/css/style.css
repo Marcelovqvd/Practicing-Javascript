@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #faf6ed;
+  color: #222;  
+}
+
+/*menu */
+.menu {
+  margin-bottom: 20px;
+  background: #FB5;
+  border-bottom: 2px solid black;
+}
+
+.menu h1 {
+  font-family: 'Playfair Display SC', georgia;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu img {
+  border: 2px solid black;
+  width: 280px;
+  height: 150px;
+}
+
+.menu img:hover {
+  cursor: pointer;
+  border: 6px solid black;
+  cursor: pointer; 
+}
+
+.heroes-lista {
+  margin: 10px 30px;
+}
+
+.heroes-lista li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.heroes-description h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 1rem 5rem;
+  color: #000;
+}
+
+.heroes-description p {
+  font-family: Helvetica, Arial;
+  line-height: 1.5;
+  margin: 1rem 5rem;
+}
+
+.dcComics {
+ margin: 40px 800px;
+ width: 300px;
+}
+
+.dcComics h2 {
+  margin: 5px 0;
+  font-family: Helvetica, Arial;
+}
+
+
+.js .js-tabcontent section {
+  display: none;
+}
+
+.js-tabcontent section.ativo {
+  display: block !important;
+  animation: show .5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
