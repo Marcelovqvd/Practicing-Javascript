@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  background: #000000;
+  color: #fff;
+}
+
+.menu ul {
+  list-style: none;
+  text-align: center;
+  
+}
+
+.menu ul li {
+  padding: 20px;
+  display: inline-block;  
+}
+
+.menu a {
+  font-size: 25px;
+  color: #000000;
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+}
+
+.menu a:hover {
+  color: #ffff00;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 25px 0 0 0;
+}
+
+section {
+  padding: 20px;
+  width: 300px;
+  border-top: 25px solid #ffff00; 
+}
+
+section.aristotle{
+  padding: 50px;
+  width: 300px;
+  border-top: none; 
+}
+
+section img {
+  width: 450px;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+section p {
+  width: 700px;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 20px 0;
+}
+
+
+section a {
+  font-size: 24px;
+  margin: 20px 5px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000000;
+  background: #ffff00;
+}
+
+footer {
+  background: #000000;
+  color: #fff;
+  padding: 20px;  
+}
+
+footer p {
+  display: inline;
+}
+
+footer p:nth-child(2) { 
+ margin-left: 250px;
+ display: inline;
+}
+
+footer a {
+  color: #fff;
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 3s;
+}
+
+.js-scroll.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@media (max-width: 760px) {
+  section p {
+    width: 300px;
+  }
+
+  footer p:nth-child(2) { 
+    margin: 20px;
+    display: block;
+    
+   }
+}
