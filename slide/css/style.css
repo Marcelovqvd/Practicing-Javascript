@@ -5,8 +5,9 @@
 }
 
 body {
-  background: #000000;
+  background: #000;
 }
+
 .container {
   width: 760px;
   margin: 200px auto;
@@ -21,18 +22,17 @@ body {
 .box1 {
   background: #000000;
   color: #fff;
-  padding: 50px;
 }
 
 .box2 {
-  background: #7a7a7a;
-  padding: 50px;
+  background: #e7eb04;
+  padding: 20px;
 }
 
 .box3 {
   background: #300a0a;
   color: #fff;
-  padding: 50px;
+  padding: 20px;
 }
 
 /* slide plug */
@@ -46,18 +46,11 @@ body {
   }
 
 .rslides li {
-  -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
   width: 100%;
   left: 0;
   top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
   }
 
 .rslides img {
