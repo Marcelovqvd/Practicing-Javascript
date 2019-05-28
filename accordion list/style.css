@@ -1,3 +1,7 @@
+.body {
+    background: beige;
+}
+
 .js-accordion p {
     display: none;
 }
