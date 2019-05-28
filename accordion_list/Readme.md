@@ -1,0 +1,1 @@
+<h1>Practicing accordion list with Javascript</h1>

@@ -1,0 +1,17 @@
+.js-accordion p {
+    display: none;
+}
+
+.js-accordion h2::after {
+    content: "⬎"; 
+    margin-left: 10px;
+}
+
+.js-accordion h2.ativo::after {
+    content: "⬏"; 
+    margin-left: 10px;
+}
+
+.js-accordion p.ativo {
+    display: block;
+}
